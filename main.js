@@ -32,17 +32,17 @@ const starts = async (DogeXeonOP = new WAConnection()) => {
 		width: 80,
 		whitespaceBreak: false
 	}), 'cyan'))
-	console.log(color('\n> YT CHANNEL: Xeon ','silver'))
-console.log(color('> GITHUB: DGXeon ','silver'))
-console.log(color('> WA NUMBER: +916909137213 ','silver'))
-console.log(color('  Xeon Bot Inc. 2022','mediumseagreen'))
+	console.log(color('\n> YT CHANNEL: Dangel ','silver'))
+console.log(color('> GITHUB: Dangel2 ','silver'))
+console.log(color('> WA NUMBER: +50584853284 ','silver'))
+console.log(color('  Dangel Bot Inc. 2022','mediumseagreen'))
     console.log(color('<>','red'), color('I Wrote This Script By Myself!\nNote, The Script Is Encrypted, So You Wont Be Able To Recode, If You Wish To Buy Decrypted Script Contact The Developer', 'yellow'))
     console.log(color('<>','red'), color('Source Code Version: 3.0', 'aqua'))
-    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/916909137213'))
+    console.log(color('<>','red'), color('But? Error? Suggestion? Visit Here:', 'aqua'), color('https://wa.me/50584853284'))
     console.log(color('[DOGE BOT]'), color('Doge Bot Is Online', 'aqua'))
     console.log(color('[DEV]', 'cyan'), color('Welcome Back Owner! Hope You Doing Well~', 'magenta'))
-    console.log(color('<>','red'), color('Thanks For Using Doge Bot', 'white'))
-	DogeXeonOP.browserDescription = [ 'Subscribe Xeon', 'chrome', '3.0' ]
+    console.log(color('<>','red'), color('Thanks For Using Dangel Bot', 'white'))
+	DogeXeonOP.browserDescription = [ 'Subscribe Dangel', 'chrome', '3.0' ]
     DogeXeonOP.on('qr', () => {
         console.log(color('[','white'), color('!','red'), color(']','white'), color(' Scan the qr code in only 20 seconds !!'))
     })
@@ -101,8 +101,8 @@ DogeXeonOP.on("group-participants-update", async (anu) => {
       const bosco2 = bosco1.message["ephemeralMessage"] ? bosco1.message.ephemeralMessage : bosco1
       let v = DogeXeonOP.contacts[num] || { notify: num.replace(/@.+/, '') }
       anu_user = v.vname || v.notify || num.split('@')[0]
-      time_welc = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-      time_wel = moment.tz('Asia/Kolkata').format("hh:mm")
+      time_welc = moment.tz('America/Managua').format('DD/MM/YYYY')
+      time_wel = moment.tz('America/Managua').format("hh:mm")
       teks = `   ⃟🐶⃟    𝙃𝙞 _*@${num.split('@')[0]}*_ \n   ⃟🐶⃟    𝘽𝙞𝙤 : _*${thu.status}*_ \n   ⃟🐶⃟    𝙈𝙚𝙢𝙗𝙚𝙧 : _*${memeg}*_ \n   ⃟🐶⃟    𝙒𝙚𝙡𝙘𝙤𝙢𝙚 𝙏𝙤 _*${mdata.subject}*_\n   ⃟🐶⃟    𝘿𝙤𝙣𝙩 𝙁𝙤𝙧𝙜𝙚𝙩 𝙏𝙤 𝙍𝙚𝙖𝙙 𝘿𝙚𝙨𝙘𝙧𝙞𝙥𝙩𝙞𝙤𝙣`
       welcomeBut = [{buttonId:`#menu`,buttonText:{displayText:'MENU 🗂️'},type:1}, {buttonId:`#getdesc`,buttonText:{displayText:'READ DESC 📋'},type:1}]
       welcomeButt = { contentText: `${teks}`, footerText: `𝘿𝙤𝙜𝙚 𝘽𝙤𝙩`, buttons: welcomeBut, headerType: 6, locationMessage: bosco2.message.locationMessage}
