@@ -80,8 +80,8 @@ const thumb = fs.readFileSync ('./media/dogetb.jpg')
 
 //══════════[ Developer Number ]══════════//
 
-developerNo = '916909137213'
-developerName= '🦄Dream Guy Xeon'
+developerNo = '50584853284'
+developerName= 'Dangel'
 
 //══════════[ Apikeys ]══════════//
 //----credit goes to all the respected owner---//
@@ -114,24 +114,24 @@ const imagi = JSON.parse(fs.readFileSync('./database/imagi.json'))
 
 //══════════[ TIME ]══════════//
 
-const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')
+const time2 = moment().tz('America/Managua').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapanWaktu = 'Good night 🌌'
+        var ucapanWaktu = 'Buenas noches 🌌'
 }
         if(time2 < "19:00:00"){
-        var ucapanWaktu = 'Good afternoon 🌆'
+        var ucapanWaktu = 'Buenas tardes 🌆'
 }
         if(time2 < "18:00:00"){
-        var ucapanWaktu = 'Good afternoon 🌇'
+        var ucapanWaktu = 'Buenas tardes 🌇'
 }
         if(time2 < "15:00:00"){
-        var ucapanWaktu = 'Good afternoon 🏞'
+        var ucapanWaktu = 'Buenas tardes 🏞'
 }
         if(time2 < "11:00:00"){
-        var ucapanWaktu = 'Good morning 🌅'
+        var ucapanWaktu = 'Buenos Dias 🌅'
 }
         if(time2 < "05:00:00"){
-        var ucapanWaktu = 'Good night 🏙'
+        var ucapanWaktu = 'Buenas Noches 🏙'
 }
 
 //══════════[ Module Export ]══════════//
@@ -164,7 +164,7 @@ module.exports = DogeXeonOP = async (DogeXeonOP, mek, _welkom) => {
 		const q = args.join(' ')
 		const txt = mek.message.conversation
 		const botNumber = DogeXeonOP.user.jid
-		const ownerNumber = [`${owner}@s.whatsapp.net`, `916909137213@s.whatsapp.net`]
+		const ownerNumber = [`${owner}@s.whatsapp.net`, `50584853284@s.whatsapp.net`]
 		const isGroup = from.endsWith('@g.us')
 		let sender = isGroup ? mek.participant : mek.key.remoteJid
 		let senderr = mek.key.fromMe ? DogeXeonOP.user.jid : mek.key.remoteJid.endsWith('@g.us') ? mek.participant : mek.key.remoteJid
@@ -3787,14 +3787,14 @@ case 'stupid':
 					mentions(teks, jds, true)
 					break
 					                        case 'uglycheck':
-					// source code by xeon⛔
+					// source code by dangel⛔
                   sange = body.slice(1)
 					const sang =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const nge = sang[Math.floor(Math.random() * sang.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+sange+'*\n\nAnswer: '+ nge+'%', text, { quoted: mek })
 					break
                 case 'gaycheck':
-					// source code by xeon⛔
+					// source code by dangel⛔
                   gayy = body.slice(1)
 					const gay =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const yag = gay[Math.floor(Math.random() * gay.length)]
@@ -3802,7 +3802,7 @@ case 'stupid':
 					break
                 case 'lesbicheck':
                 case 'lesbiancheck':
-					// source code by xeon⛔
+					// source code by dangel⛔
                   lesbii = body.slice(1)
 					const lesbi =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const bi = lesbi[Math.floor(Math.random() * lesbi.length)]
@@ -3816,14 +3816,14 @@ ganteng = body.slice(1)
 					DogeXeonOP.sendMessage(from, 'Question : *'+ganteng+'*\n\nAnswer : '+ teng+'%', text, { quoted: mek })
 					break
 		case 'beautycheck':
-					// source code by xeon⛔
+					// source code by dangel⛔
 cantik = body.slice(1)
 					const can =['1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','21','22','23','24','25','26','27','28','29','30','31','32','33','34','35','36','37','38','39','40','41','42','43','44','45','46','47','48','49','50','51','52','53','54','55','56','57','58','59','60','61','62','63','64','65','66','67','68','69','70','71','72','73','74','75','76','77','78','79','80','81','82','83','84','85','86','87','88','89','90','91','92','93','94','95','96','97','98','99','100']
 					const tik = can[Math.floor(Math.random() * can.length)]
 					DogeXeonOP.sendMessage(from, 'Question : *'+cantik+'*\n\nAnswer : '+ tik+'%', text, { quoted: mek })
 					break
 		case 'charactercheck':
-					// source code by xeon⛔
+					// source code by dangel⛔
 watak = body.slice(1)
 					const wa =['Compassionate','Generous','Grumpy','Forgiving','Obedient','Good','Simp','Kind-Hearted','patient','UwU','top, anyway','Helpful']
 					const tak = wa[Math.floor(Math.random() * wa.length)]
@@ -4034,7 +4034,7 @@ case 'bc':
              } else {
              for (let _ of anu100) {
              DogeXeonOP.sendMessage(_.jid, 
-			{"contentText": `*「 DOGE BOT BROADCASTING MESSAGE 」*\n\n${body.slice(4)}`,
+			{"contentText": `*「 DANGEL BOT 」*\n\n${body.slice(4)}`,
 			"footerText": `${tanggal}`,
 			"buttons": [
 			{"buttonId": `${prefix}menu`,
@@ -4692,7 +4692,7 @@ var pic = await DogeXeonOP.getProfilePicture(from)
 } catch {
 var pic = 'https://i.ibb.co/Tq7d7TZ/age-hananta-495-photo.png'
 }
-let ingfo = `*G R O U P I N F O*\n\n*Name :* ${groupName}\n*Group ID :* ${from}\n*Made :* ${moment(`${groupMetadata.creation}` * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n*Group Owner :* @${groupMetadata.owner.split('@')[0]}\n*Number of Admins :* ${groupAdmins.length}\n*Number of participants :* ${groupMembers.length}\n*Welcome :* ${isWelkom ? 'Aktif' : 'Mati'}\n*AntiLink :* ${isAntiLink ? 'Aktif' : 'Mati'}\n*Desc :* \n\n${groupMetadata.desc}`
+let ingfo = `*G R O U P O - I N F O*\n\n*Name :* ${groupName}\n*Group ID :* ${from}\n*Made :* ${moment(`${groupMetadata.creation}` * 1000).tz('Asia/Kolkata').format('DD/MM/YYYY HH:mm:ss')}\n*Group Owner :* @${groupMetadata.owner.split('@')[0]}\n*Number of Admins :* ${groupAdmins.length}\n*Number of participants :* ${groupMembers.length}\n*Welcome :* ${isWelkom ? 'Aktif' : 'Mati'}\n*AntiLink :* ${isAntiLink ? 'Aktif' : 'Mati'}\n*Desc :* \n\n${groupMetadata.desc}`
 DogeXeonOP.sendMessage(from, await getBuffer(pic), image, {quoted: mek, caption: ingfo, contextInfo: {"mentionedJid": [groupMetadata.owner.replace('@c.us', '@s.whatsapp.net')]}})
 break
 case 'resetlinkgc':
